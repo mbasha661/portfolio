@@ -74,6 +74,9 @@ const Header = () => {
             <span data-aos="fade-down" data-aos-delay="1200">
               O
             </span>
+       <span data-aos="fade-down" data-aos-delay="1000">
+              B
+            </span>
             <span>    </span>
             <span data-aos="fade-down" data-aos-delay="1300">
               B
