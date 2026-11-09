@@ -25,6 +25,15 @@ const ProjectCard = (props) => {
               >
                 {props.cardContent.buttonText}
               </a>
+              {props.cardContent.buttonLink2 && (
+                <a
+                  href={props.cardContent.buttonLink2}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {props.cardContent.buttonText2}
+                </a>
+              )}
             </div>
           </Collapsible>
         </div>
