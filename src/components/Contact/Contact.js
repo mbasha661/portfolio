@@ -5,10 +5,21 @@ import { faLocationDot, faPhone, faEnvelope, faSquareCheck } from '@fortawesome/
 import {
     faLinkedin,
     faGithub,
-    faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
 
 import '../../styles/Contact/Contact.scss';
+
+// GitHub Pages has no backend, so the form opens the visitor's mail client
+const sendMail = (event) => {
+    event.preventDefault();
+    const form = event.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const message = form.message.value;
+    const subject = encodeURIComponent(`Portfolio contact from ${name}`);
+    const body = encodeURIComponent(`${message}\n\nFrom: ${name} (${email})`);
+    window.location.href = `mailto:mbasha661@gmail.com?subject=${subject}&body=${body}`;
+};
 const Contact = () => {
 
     return (
@@ -77,9 +88,8 @@ const Contact = () => {
                 <div className="contact__container">
                     <div className="contact__details">
                         <div className="contact__form" data-aos="fade-up">
-                            <form name="contact" method="post">
-                                <input type="hidden" name="form-name" value="contact" />
-                                <p className="contact__form-group">
+                            <form name="contact" onSubmit={sendMail}>
+                                                                <p className="contact__form-group">
                                     <label htmlFor="name">Name: </label>
                                     <input
                                         type="text"
@@ -119,23 +129,19 @@ const Contact = () => {
                         <h3 className="contact__info-title">Let's Connect</h3>
                         <div className="contact__info-details">
                             <ul>
-                                <li> <FontAwesomeIcon icon={faLocationDot} size="2x" /><p><span>Address:&nbsp;&nbsp;</span>Enter Your Address Here...</p></li>
-                                <li> <FontAwesomeIcon icon={faPhone} size="2x" /><p><span>Phone:</span>&nbsp;&nbsp;(+91) 123456789</p></li>
-                                <li> <FontAwesomeIcon icon={faEnvelope} size="2x" /><p><span>Email:&nbsp;&nbsp;</span>xyz@gmail.com</p></li>
-                                <li> <FontAwesomeIcon icon={faSquareCheck} size="2x" /><span>FREELANCE</span></li>
+                                <li> <FontAwesomeIcon icon={faLocationDot} size="2x" /><p><span>Address:&nbsp;&nbsp;</span>Tiruchirappalli, Tamil Nadu, India</p></li>
+                                <li> <FontAwesomeIcon icon={faPhone} size="2x" /><p><span>Phone:</span>&nbsp;&nbsp;(+91) 97863 95076</p></li>
+                                <li> <FontAwesomeIcon icon={faEnvelope} size="2x" /><p><span>Email:&nbsp;&nbsp;</span>mbasha661@gmail.com</p></li>
+                                <li> <FontAwesomeIcon icon={faSquareCheck} size="2x" /><span>OPEN TO WORK</span></li>
                             </ul>
                         </div>
                         <div className="contact__social">
                             <p className="contact__linkedin">
-                                <a href="https://www.linkedin.com/in/rajiv-kumar-singh-04296418b/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+                                <a href="https://www.linkedin.com/in/mahaboob-basha-190ab9135" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
                             </p>
 
                             <p className='contact__github'>
-                                <a href="https://github.com/Rajiv-Kumar-Singh" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
-                            </p>
-
-                            <p className='contact__youtube'>
-                                <a href="https://www.youtube.com/channel/UCkNUMuNBp1-037oHEKs-G9Q" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
+                                <a href="https://github.com/mbasha661" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
                             </p>
                         </div>
                     </div>
