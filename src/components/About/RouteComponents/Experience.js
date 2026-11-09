@@ -17,42 +17,46 @@ const Experience = () => {
                     <div className="experience__description">
                         <div className="experience__main-box">
                             <div className="experience__box">
-                                <h2>XYZ Pvt Ltd</h2>
-                                <h3><FontAwesomeIcon icon={faCalendarDays} className="experience__calendar" />&nbsp; &nbsp;01/06/2022 - PRESENT</h3>
+                                <h2>Billed Right - Senior AR Process Executive</h2>
+                                <h3><FontAwesomeIcon icon={faCalendarDays} className="experience__calendar" />&nbsp; &nbsp;12/11/2025 - PRESENT</h3>
                                 <ul>
                                     <p>Responsible for -</p>
                                     <li data-aos='fade-right' data-aos-delay='200'>
-                                        <span>Developing multiple highly responsive and adaptive website using React and Vue</span>
+                                        <span>Healthcare accounts receivable workflows covering invoicing, payment posting and denial follow-up</span>
                                     </li>
                                     <li data-aos='fade-right' data-aos-delay='400'>
-                                        <span>Developing new user-facing features</span>
+                                        <span>Applying payer guidelines and billing compliance requirements</span>
                                     </li>
                                     <li data-aos='fade-right' data-aos-delay='600'>
-                                        <span>Building reusable code</span>
-                                    </li>
-                                    <li data-aos='fade-right' data-aos-delay='800'>
-                                        <span>Add few more lines...</span>
+                                        <span>Using billing and productivity systems to support accurate processing</span>
                                     </li>
                                 </ul>
                             </div>
 
-                            {/* You can put this repeated code as a child component similar to internship.js  */}
                             <div className="experience__box">
-                                <h2>XYZ Pvt Ltd</h2>
-                                <h3><FontAwesomeIcon icon={faCalendarDays} className="experience__calendar" />&nbsp; &nbsp;01/06/2022 - PRESENT</h3>
+                                <h2>Vee Healthtek - Senior AR Process Executive</h2>
+                                <h3><FontAwesomeIcon icon={faCalendarDays} className="experience__calendar" />&nbsp; &nbsp;09/04/2024 - 06/11/2025</h3>
                                 <ul>
                                     <p>Responsible for -</p>
                                     <li data-aos='fade-right' data-aos-delay='200' data-aos-offset="-5000">
-                                        <span>Developing multiple highly responsive and adaptive website using React and Vue</span>
+                                        <span>Healthcare AR and denial-management work, including payment review and issue follow-up</span>
                                     </li>
                                     <li data-aos='fade-right' data-aos-delay='400' data-aos-offset="-5000">
-                                        <span>Developing new user-facing features</span>
+                                        <span>Adherence to payer and process requirements</span>
                                     </li>
-                                    <li data-aos='fade-right' data-aos-delay='600' data-aos-offset="-5000">
-                                        <span>Building reusable code</span>
+                                </ul>
+                            </div>
+
+                            <div className="experience__box">
+                                <h2>Omega Healthcare - Senior AR Process Executive</h2>
+                                <h3><FontAwesomeIcon icon={faCalendarDays} className="experience__calendar" />&nbsp; &nbsp;10/06/2022 - 05/04/2024</h3>
+                                <ul>
+                                    <p>Responsible for -</p>
+                                    <li data-aos='fade-right' data-aos-delay='200' data-aos-offset="-5000">
+                                        <span>AR activities spanning invoicing, payment posting and denial follow-up</span>
                                     </li>
-                                    <li data-aos='fade-right' data-aos-delay='800' data-aos-offset="-5000">
-                                        <span>Add few more lines...</span>
+                                    <li data-aos='fade-right' data-aos-delay='400' data-aos-offset="-5000">
+                                        <span>Applying insurance guidelines, billing controls and accurate operational records</span>
                                     </li>
                                 </ul>
                             </div>
