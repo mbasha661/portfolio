@@ -73,8 +73,9 @@ const About = () => {
                   H<span>ello,</span>
                 </h2>
                 <p>
-                  I am <span>Your Name Here.</span> <br /> Highly passoinate
-                  front-end Developer with more than 1.5 years of experience.
+                  I am <span>Mahaboob Basha.</span> <br /> Full-stack
+                  developer from Trichy building responsive web apps with
+                  React, Node.js and MongoDB.
                 </p>
               </Link>
             </div>
@@ -93,10 +94,10 @@ const About = () => {
                   E<span>xperience</span>
                 </h2>
                 <p>
-                  <span>6 month of experience.</span>
-                  <br />I have more than 1.5 years of experience in developing
-                  highly responsive frontend of websites using React.js and
-                  Vue.js
+                  <span>4+ years of professional experience.</span>
+                  <br />Healthcare revenue cycle management at Billed Right,
+                  Vee Healthtek and Omega Healthcare, plus self-built
+                  full-stack projects in production.
                 </p>
               </Link>
             </div>
@@ -112,20 +113,17 @@ const About = () => {
                   0<span>3</span>
                 </h1>
                 <h2>
-                  I<span>nternships</span>
+                  C<span>ertifications</span>
                 </h2>
                 <p>
-                  <span>Interned at -</span> <br />
+                  <span>Trained at -</span> <br />
                 </p>
                 <ul>
                   <li>
-                    <span>XYZ Pvt Ltd</span> - Front-end Developer{" "}
+                    <span>GUVI</span> - Full Stack Development{" "}
                   </li>
                   <li>
-                    <span>XYZ Pvt Ltd</span> - Front-end Developer{" "}
-                  </li>
-                  <li>
-                    <span>XYZ Pvt Ltd</span> - Front-end Developer{" "}
+                    <span>IIT Patna</span> - AI &amp; Machine Learning{" "}
                   </li>
                 </ul>
               </Link>
@@ -145,9 +143,10 @@ const About = () => {
                   E<span>ngineering</span>
                 </h2>
                 <p>
-                  <span>College Name </span>
+                  <span>AR College of Engineering and Technology </span>
                   <br />
-                  Description.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam vitae aliquid dolorum qui reiciendis mollitia, itaque dolores eaque ullam quo soluta libero! Natus.
+                  B.E. Mechanical Engineering (Anna University), 2020. Diploma
+                  in Mechanical Engineering, MIET Polytechnic College, 2016.
                 </p>
               </Link>
             </div>
