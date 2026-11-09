@@ -7,7 +7,7 @@ import Works from './components/Works/Works';
 import About from './components/About/About';
 
 // React Router
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Intro from './components/About/RouteComponents/Intro';
 import Experience from './components/About/RouteComponents/Experience';
 import Internships from './components/About/RouteComponents/Internships';
@@ -19,7 +19,7 @@ import Contact from './components/Contact/Contact';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route
             exact
@@ -36,10 +36,9 @@ function App() {
           <Route exact path="/about/internships" element={<Internships />} />
           <Route exact path="/about/graduation" element={<Graduation />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
 
 export default App;
-
