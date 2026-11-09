@@ -16,12 +16,16 @@ const Skill = () => {
       const texts = [
         'HTML',
         'CSS',
-        'Bootstrap',
         'JavaScript',
         'React',
-        'ES6',
-        'GIT',
-        'GITHUB',
+        'Node.js',
+        'Express',
+        'MongoDB',
+        'MySQL',
+        'Firebase',
+        'Python',
+        'SQL',
+        'Git',
       ];
 
 
@@ -99,73 +103,69 @@ const Skill = () => {
             <div className="skill__info">
               <div className="skill__details-container">
                 <div className="skill__details">
-                  <h4>HTML / CSS</h4>
+                  <h4>Frontend</h4>
                   <ul>
                     <li>
                       <span>HTML5, CSS3</span>
                     </li>
                     <li>
-                      <span>
-                        <b>Preprocessors:</b> PUG, SASS
-                      </span>
+                      <span>JavaScript (ES5/ES6)</span>
                     </li>
                     <li>
-                      <span>
-                        <b>Modular:</b> BEM
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="skill__details">
-                  <h4>JavaScript</h4>
-                  <ul>
-                    <li>
-                      <span>
-                        <b>Frameworks & Libraries:</b> &nbsp; React JS, React
-                        Native, Vue.js, Nuxt
-                      </span>
+                      <span>React JS</span>
                     </li>
                     <li>
-                      <span>ES5/ES6</span>
-                    </li>
-                    <li>
-                      <span>Node.js</span>
-                    </li>
-                    <li>
-                      <span>jQuery</span>
-                    </li>
-                    <li>
-                      <span>Typescript</span>
+                      <span>Bootstrap</span>
                     </li>
                   </ul>
                 </div>
                 <div className="skill__details">
-                  <h4>Version Control Systems</h4>
+                  <h4>Backend</h4>
                   <ul>
                     <li>
-                      <span>GIT</span>
+                      <span>Node.js, Express.js</span>
+                    </li>
+                    <li>
+                      <span>REST APIs</span>
+                    </li>
+                    <li>
+                      <span>JWT &amp; bcrypt authentication</span>
                     </li>
                   </ul>
                 </div>
                 <div className="skill__details">
-                  <h4>E-Commerce</h4>
+                  <h4>Databases</h4>
                   <ul>
                     <li>
-                      <span>Shopify</span>
+                      <span>MongoDB (Mongoose)</span>
+                    </li>
+                    <li>
+                      <span>MySQL</span>
+                    </li>
+                    <li>
+                      <span>Firebase Firestore</span>
                     </li>
                   </ul>
                 </div>
                 <div className="skill__details">
-                  <h4>Server Side</h4>
+                  <h4>Tools & Platforms</h4>
                   <ul>
                     <li>
-                      <span>Node.js</span>
+                      <span>Git &amp; GitHub</span>
                     </li>
                     <li>
-                      <span>Express.js</span>
+                      <span>Vercel, Firebase, GitHub Pages</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="skill__details">
+                  <h4>Also working with</h4>
+                  <ul>
+                    <li>
+                      <span>Python</span>
                     </li>
                     <li>
-                      <span>MongoDB</span>
+                      <span>SQL</span>
                     </li>
                   </ul>
                 </div>
