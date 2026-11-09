@@ -11,11 +11,11 @@ const Intro = () => {
                         <h1 data-aos='fade-down' data-aos-offset="0">H<span>ello</span>.</h1>
                     </div>
                     <div className="about-intro__description">
-                        <p data-aos='fade-right' >I am <span>Your Name Here....</span></p>
-                        <p data-aos='fade-right' data-aos-delay='200'>I enjoy building websites and always enthusiastic about creating new front-end features.</p>
-                        <p data-aos='fade-right' data-aos-delay='400'>Passionate front-end Developer with more than 1.5 years of experience in developing highly adaptive and responsive websites using React and Vue.</p>
-                        <p data-aos='fade-right' data-aos-delay='600'>I also have basic understanding of server side development using Node.js, Express.js and MongoDB</p>
-                        <p data-aos='fade-right' data-aos-delay='800'>Add few more lines if required...</p>
+                        <p data-aos='fade-right' >I am <span>Mahaboob Basha A. S.</span>, from Tiruchirappalli, Tamil Nadu.</p>
+                        <p data-aos='fade-right' data-aos-delay='200'>A full-stack developer trained through GUVI's Full Stack Development program, now pursuing an AI &amp; Machine Learning certification at IIT Patna.</p>
+                        <p data-aos='fade-right' data-aos-delay='400'>I build responsive web apps with JavaScript, React, Node.js, Express and MongoDB. My projects include FzeeLogBook, a live fleet-management app used for day-to-day vehicle and earnings tracking.</p>
+                        <p data-aos='fade-right' data-aos-delay='600'>Before moving into software, I spent 4+ years in healthcare revenue cycle management - work that taught me accuracy, ownership and structured problem-solving.</p>
+                        <p data-aos='fade-right' data-aos-delay='800'>I use AI tools such as ChatGPT as a development aid, always with my own review and testing.</p>
 
                         <div className="about-intro__emoji">:&nbsp;)</div>
                     </div>
