@@ -16,9 +16,9 @@ const Graduation = () => {
                     </div>
 
                     <div className="graduation__description">
-                        <h1>Your College Name..</h1>
-                        <h2><FontAwesomeIcon icon={faCalendarDays} className="internships__calendar" />&nbsp;&nbsp;13/08/2018 - 31/07/2022</h2>
-                        <p>Pursued B.Tech in Computer Science Engineering from 'Your College Name'.</p>
+                        <h1>AR College of Engineering and Technology, Anna University</h1>
+                        <h2><FontAwesomeIcon icon={faCalendarDays} className="internships__calendar" />&nbsp;&nbsp;Graduated 2020</h2>
+                        <p>B.E. in Mechanical Engineering, graduated in 2020 with a CGPA of 7.49. Also holds a Diploma in Mechanical Engineering from MIET Polytechnic College, Trichy (2016, 76%).</p>
                     </div>
                 </div>
             </div>
