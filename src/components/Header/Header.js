@@ -5,11 +5,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
 
 import '../../styles/Header/Header.scss';
 const Header = () => {
+  const scrollToSection = (id) => (event) => {
+    event.preventDefault();
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   const navLinkAbout = useRef();
   const navLinkWork = useRef();
   const navLinkContact = useRef();
@@ -108,7 +112,7 @@ const Header = () => {
                   data-aos="fade-down"
                   data-aos-delay="0"
                 >
-                  <a href="#about">About</a>
+                  <a href="#about" onClick={scrollToSection('about')}>About</a>
                 </li>
                 <div className="header__route-bg"></div>
               </div>
@@ -119,7 +123,7 @@ const Header = () => {
                   data-aos="fade-down"
                   data-aos-delay="200"
                 >
-                  <a href="#work">Works</a>
+                  <a href="#work" onClick={scrollToSection('work')}>Works</a>
                 </li>
                 <div className="header__route-bg"></div>
               </div>
@@ -130,21 +134,17 @@ const Header = () => {
                   data-aos="fade-down"
                   data-aos-delay="300"
                 >
-                  <a href="#contact">Contact me</a>
+                  <a href="#contact" onClick={scrollToSection('contact')}>Contact me</a>
                 </li>
                 <div className="header__route-bg"></div>
               </div>
               <div className="header__social">
                 <p className="header__linkedin">
-                  <a href="https://www.linkedin.com/in/rajiv-kumar-singh-04296418b/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+                  <a href="https://www.linkedin.com/in/mahaboob-basha-190ab9135" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
                 </p>
 
                 <p className='header__github'>
-                  <a href="https://github.com/Rajiv-Kumar-Singh" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
-                </p>
-
-                <p className='header__youtube'>
-                  <a href="https://www.youtube.com/channel/UCkNUMuNBp1-037oHEKs-G9Q" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
+                  <a href="https://github.com/mbasha661" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" /></a>
                 </p>
               </div>
             </ul>
