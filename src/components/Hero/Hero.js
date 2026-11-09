@@ -5,6 +5,11 @@ import '../../styles/Hero/Hero.scss';
 import Myself from '../../assets/images/basha.png';
 
 const Hero = () => {
+  const scrollToSection = (id) => (event) => {
+    event.preventDefault();
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   useEffect(() => {
     const alphbets = document.getElementsByClassName('hero__alphabet');
     for (let i = 0; i <= alphbets.length; i++) {
@@ -40,49 +45,56 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                R
+                U
               </span>
               <span
                 className="hero__alphabet"
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
-                O
+                L
               </span>
               <span
                 className="hero__alphabet"
                 data-aos="fade-up"
                 data-aos-delay="800"
               >
-                N
+                L
               </span>
               <span
                 className="hero__alphabet"
                 data-aos="fade-up"
                 data-aos-delay="1000"
               >
-                T
+                S
               </span>
               <span
                 className="hero__alphabet"
                 data-aos="fade-up"
                 data-aos-delay="1200"
               >
-                E
+                T
               </span>
               <span
                 className="hero__alphabet"
                 data-aos="fade-up"
                 data-aos-delay="1400"
               >
-                N
+                A
+              </span>
+              <span
+                className="hero__alphabet"
+                data-aos="fade-up"
+                data-aos-delay="1600"
+              >
+                C
               </span>
               <span
                 className="hero__alphabet hero__alphabet--last"
                 data-aos="fade-up"
-                data-aos-delay="1600"
+                data-aos-delay="1800"
               >
-                D
+                K
               </span>
               <span
                 className="hero__developer-text"
@@ -98,9 +110,10 @@ const Hero = () => {
               data-aos-delay="1800"
             >
               <p>
-                I'm a passionate and responsible{' '}
-                <span>front-end developer</span>. Skilled in developing highly responsive websites and
-                mobile apps with elegant and efficient code.
+                I'm a <span>full-stack developer</span> from Trichy, trained in
+                JavaScript, React, Node.js, Express and MongoDB. I build
+                responsive, production-ready web apps with clean, efficient
+                code.
               </p>
             </div>
 
@@ -108,6 +121,7 @@ const Hero = () => {
               <a
                 className="hero__know-btn"
                 href="#about"
+                onClick={scrollToSection('about')}
                 data-aos="fade-up"
                 data-aos-delay="1800"
               >
@@ -116,6 +130,7 @@ const Hero = () => {
               <a
                 className="hero__contact-btn"
                 href="#contact"
+                onClick={scrollToSection('contact')}
                 data-aos="fade-up"
                 data-aos-delay="2000"
               >
